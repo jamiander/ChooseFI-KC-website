@@ -17,6 +17,7 @@ export class Satellite {
       return true;
     }
     return false;
+
   }
 }
 
