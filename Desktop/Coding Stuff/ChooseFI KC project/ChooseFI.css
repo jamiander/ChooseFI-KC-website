@@ -5,7 +5,7 @@ h1 {
   font-family: "Wendy+One";
   color: #070d59;
   text-align: center;
-  background-image: url(money-world.jpg);
+  background-image: url(images/money-world.jpg);
   margin: 0;
   padding: 0px;
 }
@@ -67,19 +67,7 @@ main {
   .navbar.responsive {position: relative;}
 
 }
-/*.navbar ul {
-  background-color: #7572f4;
-  font-size: 30px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-.navbar li {
-  text-align: center;
-  margin-left: 150px;
-  display:inline-block;
-}*/
 
 .navbar li:hover {
   background-color: white;
@@ -152,12 +140,12 @@ h3 {
 }
 
 .countdown {
-  background-image: url(fire.jpg);
+  background-image: url(images/fire.jpg);
   color: white;
 }
 
 .countdown h2 {
-  background-image: url(fire.jpg);
+  background-image: url(images/fire.jpg);
 }
 
 
