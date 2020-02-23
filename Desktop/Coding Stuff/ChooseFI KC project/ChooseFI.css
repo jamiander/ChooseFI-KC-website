@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Ubuntu|Wendy+One');
+
+h1 {
+  font-size: 50px;
+  font-family: "Wendy+One";
+  color: #070d59;
+  text-align: center;
+  background-image: url(money-world.jpg);
+  margin: 0;
+  padding: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  background-color: #ffbea3;
+  margin: 0;
+}
+
+.top {
+  position:absolute;
+  left: 20px;
+}
+.top a.menu_icon i {
+  color: #000;
+	font-size: 40px;
+	padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+	transition: .2s ease;
+}
+.navbar {
+  width: 200px;
+	min-height: calc(100vh - 121px);
+	position: absolute;
+	left: -300px;
+	transition: .3s all;
+  background-color: #eaeaea;
+}
+#myTopnav {
+  display: block;
+    padding: 5px;
+    text-decoration-color: #293462;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+main {
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.navbar_show {
+	left: 0!important;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 300px) {
+	header h2 {
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 300px) {
+	nav.navbar {
+		width: 100%;
+		left: -100%;
+	}
+  .navbar.responsive {position: relative;}
+
+}
+/*.navbar ul {
+  background-color: #7572f4;
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  text-align: center;
+  margin-left: 150px;
+  display:inline-block;
+}*/
+
+.navbar li:hover {
+  background-color: white;
+}
+.navbar a:link, a:visited {
+  color: rgb(162, 0, 255);
+}
+a.current:link, a.current:visited {
+  color: blue;
+}
+
+.blogs h2 {
+  font-size: 35px;
+  font-family: "Nanum+Gothic";
+  color: #070d59;
+  text-align: center;
+  background-color: #5893d4;
+  margin: 0;
+}
+
+.events h2 {
+  font-size: 35px;
+  font-family: "Wendy+One";
+  background-color: #7fa99b;
+  margin: 0;
+
+}
+
+h3 {
+  font-family: "Nanum+Gothic";
+  font-size: 35px;
+  text-align: center;
+}
+
+.blogs {
+  background-color: #f6e79c;
+}
+ .blogName {
+   font-size: 30px;
+   font-family: "Ubuntu";
+   color: #293462;
+   text-align: center;
+   display: block;
+ }
+
+ .blogName:hover {
+   background-color: white;
+ }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.blogs img {
+  height: 150px;
+
+}
+.blogList {
+  list-style-type: none;
+}
+
+.blogLinks {
+  display:inline-block;
+  text-align: center;
+  margin-left: 75px;
+  margin-bottom: 50px;
+}
+
+.countdown {
+  background-image: url(fire.jpg);
+  color: white;
+}
+
+.countdown h2 {
+  background-image: url(fire.jpg);
+}
+
+
+.countdown p {
+  font-size: 30px;
+  font-family: "Ubuntu";
+}
+
+
+#calendar{
+    width: 200px;
+    height: 180px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5%;
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 50, 0.4);
+    
+  }
+
+#calendar>p{
+    font-family: Verdana, Arial, sans-serif;
+    padding: 10px 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#calendar-day{
+    font-size: 16px;
+}
+
+#calendar-month-year{
+    font-size: 14px;
+}
+
+#calendar-date{
+    font-size: 64px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.contact {
+  font-size: 100;
+  font-family: "Ubuntu";
+  background-color: grey;
+  color: white;
+}
+
+.about {
+  font-size: 100;
+  font-family: "Ubuntu";
+  background-color: #7572f4;
+}
+
+.upcoming h1 {
+  font-family: "Wendy+One";
+  text-align: center;
+  font-size: 75;
+}
+.upcoming h2 {
+  font-size: 50;
+  color: red;
+  display:block;
+  text-align: center;
+}
+
+.upcoming img {
+  margin: 0;
+  display:inline-block;
+}
