@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+  <style>@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Ubuntu|Wendy+One');
+  </style>
+
+  <link rel="stylesheet" href="ChooseFI.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>ChooseFI Kansas City</title>
+</head>
+<body>
+  <header>
+    <h1>ChooseFI Kansas City</h1>
+    <h2>What's your Why?</h2>
+    <div class="top">
+			<a href="#" class="menu_icon"><i class="material-icons">dehaze</i></a>
+		</div>
+  </header>
+   <nav class="navbar" id="myTopnav">
+      <ul>
+         <li><a href="ChooseFI.html" class="current">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="upcoming.html">Upcoming Events</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i>
+         </a>
+      </ul>
+    </nav>
+    <script type="text/javascript" src="ChooseFI.js"></script>
+    <main>
+    <div>
+      <div class ="grid-container" id = "sections">
+        <div class = "blogs">
+          <h2>We're on FIRE!</h2>
+          <h3 class = "head">Must-read Blogs</h3>
+            <ul class = "blogList">
+            <li class = "posts">
+              <div class="blogLinks">
+                <a href="https://www.choosefi.com/"target="_blank">
+            		<img src="images/ChooseFI.jpeg">
+                <span class ="blogName">ChooseFI</span></a>
+              </div>
+              <div class="blogLinks">
+                <a href="http://www.frugalwoods.com/"target="_blank">
+            		<img src="images/frugalwoods.jpeg">
+                <span class ="blogName">Frugalwoods</span></a>
+              </div>
+              <div class="blogLinks">
+                <a href="https://www.montanamoneyadventures.com/"target="_blank">
+            		<img src="images/Montanamoney.png">
+                <span class ="blogName">Montana Money Adventures</span></a>
+              </div>
+              <div class="blogLinks">
+                <a href="https://www.fiintrovert.com/"target="_blank">
+            		<img src="images/FIIntrovert.png">
+                <span class ="blogName">FI Introvert</span></a>
+              </div>
+            </li>
+          </ul>
+          </div>
+
+          <div class = "countdown">
+            <h2>Get FIREd up!</h2>
+            <h3>How many days until you reach FI?</h3>
+            <div id = "calendar">
+              <p id="calendar-day"></p>
+              <p id="calendar-date"></p>
+              <p id="calendar-month-year"></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
