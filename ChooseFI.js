@@ -9,7 +9,7 @@ function fi(why) {
 
 
 
-if (window.location.href.includes("ChooseFI.html")) {
+if (window.location.href.includes("index.html")) {
   let why = prompt ("Do you want to be FI?");
   fi(why);
 }
