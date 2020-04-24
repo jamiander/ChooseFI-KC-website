@@ -5,12 +5,12 @@ A no answer redirects to Amazon.com.  There are several pages and the site inclu
 
 ## Technologies
 
-JavaScript
-HTML
-CSS
-JQuery
-Ajax
-Google Fonts API
+JavaScript  
+HTML  
+CSS  
+JQuery  
+Ajax  
+Google Fonts API  
 Bootstrap
 
 
